@@ -1,0 +1,161 @@
+    body{
+        background-image: url(/valentines-web/img/valentines.png);
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    margin: 0;
+     padding-top: 60px;
+      
+
+    }
+    #main-body
+    {
+      display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    font-family: 'Great Vibes', cursive;
+      
+    }
+    #header-bar
+    {
+        display: flex;
+        position: fixed;
+        height: 60px;
+        justify-content: space-between;
+        
+        background-color: white ;
+        width: 100%;
+        padding-left: 20px;
+        top: 0;
+        left: 0;
+        
+    }
+    #overlay {
+    height: 100%;
+    background-color: rgba(190, 187, 187, 0.5);
+    z-index: 2; 
+    cursor: pointer; 
+    border-radius: 20px;
+}
+    .profile-pic
+    {
+        height: 50px;
+        border-radius: 50%;
+        width: 50px;
+        object-fit: cover;
+        z-index: 100;
+        margin-top: 5px;
+        
+    }
+    .website-name
+    {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .website-name h3{
+        margin-left: 10px;
+    }
+    .my-info
+    {
+        padding-right: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .social-app
+    {
+        height: 30px;
+        width: 30px;
+        
+    }
+    .container
+    {
+    padding: 40px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+     box-shadow:    0 0 10px #ff98d4;
+        
+    }
+    .cat-gif
+    {
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+         box-shadow:    0 0 10px #ff98d4;
+    }
+    .container-2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+     .container-2 p{
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+     }
+    .yes-btns
+    {
+        width: auto;
+        padding: 7px 14px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(236, 95, 118);
+        color: white;
+       margin-right: 10px;
+         box-shadow:    0 0 10px #fe6363;
+         cursor: pointer;
+    }
+    .no-btns
+    {
+          width: auto;
+        padding: 7px 14px;
+        border-radius: 30px;
+        border: none;
+        background-color: white ;   
+        border: 1px solid rgb(255, 105, 130);
+        cursor: pointer;
+    }
+
+    .hearts {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.hearts span {
+    position: absolute;
+    bottom: -30px;
+    font-size: 20px;
+    animation: floatUp 6s linear infinite;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
