@@ -1,5 +1,5 @@
     body{
-        background-image: url(/valentines-web/img/valentines.png);
+        background-image: url(valentines.png);
     background-size: cover;        
     background-position: center;   
     background-repeat: no-repeat; 
@@ -159,3 +159,4 @@
         opacity: 0;
     }
 }
+
